@@ -1,0 +1,54 @@
+h1 {
+  color: red;
+}
+
+h2 {
+  color: red;
+}
+
+/* For all screen less than 450px will be this styles */
+/* MOBILE PHONES */
+@media (max-width: 450px) {
+  h1 {
+    color: greenyellow;
+  }
+
+  h2 {
+    color: greenyellow;
+  }
+}
+
+/* It will (sobreescrever) the previous style rule */
+/* @media (max-width: 768px) {
+  h1 {
+    color: yellow;
+  }
+
+  h2 {
+    color: yellow;
+  }
+} */
+
+/* between 768px and 1024px will be this styles */
+/* TABLETS */
+@media (min-width: 768px) and (max-width: 1024px) {
+  h1 {
+    color: orchid;
+  }
+
+  h2 {
+    color: orchid;
+  }
+}
+
+/*Orientation horizontal*/
+/*It applies only when the width is bigger than height*/
+@media (orientation: landscape) {
+  h1 {
+    color: blue;
+  }
+
+  h2 {
+    color: blue;
+  }
+}
