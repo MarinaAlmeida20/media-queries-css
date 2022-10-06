@@ -18,6 +18,14 @@ h2 {
   }
 }
 
+/* For more specific size use width*/
+/* careful with the order it matters */
+@media (width: 375px) {
+  h1 {
+    color: rebeccapurple;
+  }
+}
+
 /* It will (sobreescrever) the previous style rule */
 /* @media (max-width: 768px) {
   h1 {
